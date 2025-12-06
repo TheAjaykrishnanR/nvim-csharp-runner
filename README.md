@@ -12,7 +12,7 @@ A Neovim plugin to run C# code snippets using CS-Script that I Vibecoded using C
 ### Using [lazy.nvim](https://github.com/folke/lazy.nvim)
 ```lua
 {
-  'yourusername/nvim-csharp-runner',
+  'TheAjaykrishnanR/nvim-csharp-runner',
   config = function()
     require('csharp_runner')
   end
@@ -22,7 +22,7 @@ A Neovim plugin to run C# code snippets using CS-Script that I Vibecoded using C
 ### Using [packer.nvim](https://github.com/wbthomason/packer.nvim)
 ```lua
 use {
-  'yourusername/nvim-csharp-runner',
+  'TheAjaykrishnanR/nvim-csharp-runner',
   config = function()
     require('csharp_runner')
   end
