@@ -24,7 +24,7 @@ function M.run_csharp()
 	file:write(code)
 	file:close()
 
-	local cmd = { "css", temp_file }
+	local cmd = { "css", "-engine:csc", temp_file }
 
 	-- Close previous output buffer if it exists
 	if output_buf and vim.api.nvim_buf_is_valid(output_buf) then
