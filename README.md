@@ -33,7 +33,7 @@ use {
 
 Clone to your Neovim config directory:
 ```bash
-git clone https://github.com/yourusername/nvim-csharp-runner ~/.config/nvim/pack/plugins/start/nvim-csharp-runner
+git clone https://github.com/TheAjaykrishnanR/nvim-csharp-runner ~/.config/nvim/pack/plugins/start/nvim-csharp-runner
 ```
 
 Then add to your `init.lua`:
